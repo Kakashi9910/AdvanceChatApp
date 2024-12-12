@@ -76,7 +76,7 @@ const ContactList = ({ contacts, isChannel = false }) => {
               <span>
                 {" "}
                 {contact.firstName
-                  ? contact.firstName.split("").shift()
+                  ? contact.firstName
                   : contact.email}
               </span>
             )}
